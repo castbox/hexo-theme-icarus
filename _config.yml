@@ -1,6 +1,6 @@
 # Menus
 menu:
-  Home: http://castbox.fm
+  Home: /
   # Blogs: .
   Archives: archives
   # Facebook: https://facebook.com/castbox.fm
@@ -12,7 +12,8 @@ customize:
         enabled: true
         width: 40
         height: 40
-        url: images/logo.png
+        url: images/logo.png # logo 路径
+        link: http://castbox.fm #a链接地址
     profile:
         enabled: false # Whether to show profile bar
         avatar: css/images/avatar.png

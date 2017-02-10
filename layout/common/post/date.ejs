@@ -4,5 +4,8 @@
         <a href="<%- url_for(post.path) %>">
             <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, date_format) %></time>
         </a>
+        <% if (post.date) { %>
+          <span>&nbsp;&nbsp;&nbsp; Author: <%= post.author %></span>
+        <% } %>
     </div>
 <% } %>
